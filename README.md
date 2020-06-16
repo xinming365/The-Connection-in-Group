@@ -15,9 +15,15 @@ The user account is nijun. The password is 3309_junni
 
 ## Mac
 打开设置-通用-网络-VPN
+
+
 然后点击左下角加号（+），新建一个网络端口。接口类型VPN，VPN类型：Cisco IPSec，服务器名称：VPN（Cisco IPSec）。确认创建
+
+
 服务器地址：166.111.143.27
 账户名称：nijun
 密码：m5Bj01e
+
+
 点击鉴定设置-输入共享密钥hpccenter,点击连接。
 前端机登陆节点地址：192.169.1.2
