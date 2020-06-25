@@ -12,6 +12,15 @@ To use it, you need to install the ActiveX .
 
 The user account is nijun. The password is 3309_junni
 
+In the Windows platform, you need a software to build connections between your own computer and the remote Linux machines. The Xmanager software is recommended
+for you. Xmanager下载链接：https://pan.baidu.com/s/14m1dOhkQu54UByi5rt8CPg 提取码：t5or 。
+
+
+创建新的一个链接：名称:自己定义，协议（protocol）:ssh，主机（host）：192.168.1.2，端口号（Port number）：22.
+
+登录用户名：nijun，公钥（Public key）-用户密钥，选择相应文件添加进去，文件链接：https://pan.baidu.com/s/1aenni0NoXRQILG5rZIg-0A 提取码：r88s。
+创建好之后就能够正常连接超算集群。
+
 
 ## Mac
 打开设置-通用-网络-VPN
