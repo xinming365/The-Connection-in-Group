@@ -30,5 +30,6 @@
 学习参考链接
 https://medium.com/the-mission/how-to-build-the-perfect-deep-learning-computer-and-save-thousands-of-dollars-9ec3b2eb4ce2
 https://l7.curtisnorthcutt.com/build-pro-deep-learning-workstation
+http://mli.github.io/gpu/2016/01/17/build-gpu-clusters/
 
 
