@@ -15,15 +15,28 @@
 - 风扇
 
 ## 软件环境
+集群的每个节点（主节点，登陆节点，计算节点）都需要有操作系统。操作系统可以安装在节点的硬盘驱动器上。
+### 操作系统
 - Ubuntu系统 :去Ubuntu官网下载server版本的系统：https://ubuntu.com/download/alternative-downloads 然后制作Ubuntu server的U盘启动盘。可以通过Rufus工具创建USB启动盘，网站在https://rufus.ie/ 插入镜像文件。
+- 或者CentOS系统：https://www2.physik.uni-bielefeld.de/gpu-cluster.html
+### 驱动和开发工具
+
 - CUDA环境
 
 计算节点，存储节点，管理节点，集群辅件。
 ## 物理部署
 
-## 头节点安装
+## HPC系统网络
+### 外部网络
+基于TCP的管理网络
+### 计算网络
+基于TCP或者其它协议的，通常是InfiniBand或者其余的高速网络
+#### Infiniband驱动
+- 去官网上找到适合自己硬件的驱动：https://www.mellanox.com/products/InfiniBand-VPI-Software 安装教程如下：https://blog.csdn.net/oPrinceme/article/details/51001849
 
-## 计算机节点安装
+## 主节点
+
+## 计算机节点
 
 ## 管理和监视
 
@@ -31,5 +44,9 @@
 https://medium.com/the-mission/how-to-build-the-perfect-deep-learning-computer-and-save-thousands-of-dollars-9ec3b2eb4ce2
 https://l7.curtisnorthcutt.com/build-pro-deep-learning-workstation
 http://mli.github.io/gpu/2016/01/17/build-gpu-clusters/
+搭建集群CSDN：https://blog.csdn.net/gugugujiawei/article/details/44592049
+## 国内的超算中心
+上海交通大学Pi：https://hpc.sjtu.edu.cn/Item/Software.htm
+
 
 
