@@ -15,7 +15,7 @@
 - 风扇
 
 ## 软件环境
-- Ubuntu系统
+- Ubuntu系统 :去Ubuntu官网下载server版本的系统：https://ubuntu.com/download/alternative-downloads 然后制作Ubuntu server的U盘启动盘。可以通过Rufus工具创建USB启动盘，网站在https://rufus.ie/ 插入镜像文件。
 - CUDA环境
 
 计算节点，存储节点，管理节点，集群辅件。
