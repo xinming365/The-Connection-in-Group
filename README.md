@@ -1,8 +1,19 @@
 # The-Connection-in-Group
+
+我们组目前计算的服务器目前有下面几个地方：
+
+- 自己搭建的工作站
+- 学校的集群
+- 并行科技（校外服务商）的服务器
+- 天津超算
+
 The essential information of the connections to the computing resources
+## 工作站的连接
+Ip地址为：166.111.26.46
+注意必须使用校内网连接。（DIVI，DIVI2不能使用）
 
-
-## Windows
+## 学校集群的连接
+### Windows
 Use the IE explorer and open the website https://166.111.143.19:10000/svpn/vpnuser/home.cgi, which is the the SSL VPN for the login.
 To use it, you need to install the ActiveX . 
 
@@ -22,7 +33,7 @@ for you. Xmanager下载链接：https://pan.baidu.com/s/14m1dOhkQu54UByi5rt8CPg 
 创建好之后就能够正常连接超算集群。
 
 
-## Mac
+### Mac
 打开设置-通用-网络-VPN
 
 
@@ -36,3 +47,7 @@ for you. Xmanager下载链接：https://pan.baidu.com/s/14m1dOhkQu54UByi5rt8CPg 
 
 点击鉴定设置-输入共享密钥hpccenter,点击连接。
 前端机登陆节点地址：192.169.1.2
+
+## 并行科技的连接
+下载他们提供的并行超算云服务客户端，自己创建账号和密码，然后跟我说或者在群里向工程师要求，把nijun的服务器资源链接到自己的账号下。
+
