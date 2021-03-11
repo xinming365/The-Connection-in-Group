@@ -61,6 +61,18 @@
 对物理系的网络环境，需要设置控制节点的子网掩码，默认网关，dns服务器，静态ip，子网掩码，才能与外界通信。
 
 删除计算节点的普通用户。userdel –r <your username>。下面设置通过控制节点无密码登陆各个计算节点。
+ 
+### NFS设置
+需要设置不同机器的文件共享。打开/etc/exportfs文件，添加：
+/home  192.168.1.0/255.255.255.0(rw,sync,no_root_squash,subtree_check) 
+/opt   192.168.1.0/255.255.255.0(rw,sync,no_root_squash,subtree_check) 
+/usr/local  192.168.1.0/255.255.255.0(rw,sync,no_root_squash,subtree_check)
+
+
+共享/home目录，用户存储，这样文件才能够被计算节点获取。/opt为了共享intel编译器，/usr/local为了共享各种安装的其他软件。
+192.168.1.0/255.255.255.0表示可以挂载的ip地址范围。表示共享到所有192.168.1.X的IP。(rw,sync,no_root_squash,subtree_check)表示挂载的配置，这里表示可读可写，同步执行，若 NFS 主机使用分享目录的使用者，如果是 root 的话，那么对 于这个分享的目录来说，他就具有 root 的权限，强制 NFS 检查父目录的权限。
+
+
 ### 计算网络
 ## 主节点
 
