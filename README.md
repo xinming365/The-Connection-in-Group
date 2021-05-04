@@ -36,7 +36,7 @@ To use it, you need to install the ActiveX .
 
 浏览器右上角设置-internet选项-安全-取消勾选 启用保护模式 ，然后再在这个页面依次选择：自定义级别-启用ActiveX控件和插件
 
-此外，右上角设置-管理加载项，查看ActiveX控件是否正常加载。
+警告，右上角设置-管理加载项，查看ActiveX控件是否正常加载，一般会显示已经启用ActiveX控件，但不可用。说明上一步未成功完成。
 
 The user account is nijun. The password is 3309_junni
 
