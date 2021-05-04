@@ -36,6 +36,8 @@ To use it, you need to install the ActiveX .
 
 浏览器右上角设置-internet选项-安全-取消勾选 启用保护模式 ，然后再在这个页面依次选择：自定义级别-启用ActiveX控件和插件
 
+此外，右上角设置-管理加载项，查看ActiveX控件是否正常加载。
+
 The user account is nijun. The password is 3309_junni
 
 In the Windows platform, you need a software to build connections between your own computer and the remote Linux machines. The Xmanager software is recommended
