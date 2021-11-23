@@ -88,7 +88,7 @@ ${MPIVASP} >relax.out
 ```
 假设该脚本保存为run_job.sh文件，通过bsub < run_job.sh命令，就可以将该计算提交上去。
 
-之后可以通过bjobs命令查看作业状态
+之后可以通过bjobs命令查看作业状态.下面是bjobs显示的结果。还可以通过mybjobs（自己重写的脚本）显示结果，现实提交使用人。
 ```
 JOBID      USER    STAT  QUEUE      FROM_HOST   EXEC_HOST   JOB_NAME   SUBMIT_TIME
 17128621   nijun   RUN   hpc_linux  ln1         12*c28b02   *????????? Oct 15 10:29
