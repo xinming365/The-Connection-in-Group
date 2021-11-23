@@ -94,6 +94,7 @@ JOBID      USER    STAT  QUEUE      FROM_HOST   EXEC_HOST   JOB_NAME   SUBMIT_TI
 17128621   nijun   RUN   hpc_linux  ln1         12*c28b02   *????????? Oct 15 10:29
 ```
 状态（STAT）为正在运行（RUN），此外还有（PEND正在排队等待，PSUSP任务在队列中排队等待时被用挂起，SSUSP任务被系统挂起，DONE作业正常结束，exit代码为0，EXIT作业退出）
+如果一不小心提交错了作业，使用bkill JOBID杀掉刚刚提交的任务。
 
 ## 并行科技的连接
 下载他们提供的并行超算云服务客户端，自己创建账号和密码，然后跟我说或者在群里向工程师要求，把nijun的服务器资源链接到自己的账号下。
