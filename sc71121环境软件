@@ -1,0 +1,4 @@
+lammps软件
+测试路径：/public3/home/sc71121/lammps-test
+测试脚本: sub.sh
+提交作业: sbatch sub.sh 算例名
